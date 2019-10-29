@@ -1,11 +1,11 @@
-# apache-drill
+# Apache-drill
 
 This is regular light weight apache drill docker image which run in **distributed mode**. This image can be used for any enviroments to spinup a Apache Drill in distributed mode.
 
 
 ## To build image:
 
-Clone the repositeroy build the docker image using the commands below:
+Clone the repo and build the docker image using the commands below:
 
 ```
 docker build -t apachedrill:${tag_name_which_you_like} .
