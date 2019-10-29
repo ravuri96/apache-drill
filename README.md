@@ -19,5 +19,5 @@ docker-compose up -d
 
 After starting up the docker container. verify that all services are running.
 
-copy paste the both links in browser and see all the service are running.
+copy paste the link in browser and see all the service are running.
 http://localhost/8047- Apache drill ui
