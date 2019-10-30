@@ -21,3 +21,10 @@ After starting up the docker container. verify that all services are running.
 
 copy paste the link in browser and see all the service are running.
 http://localhost/8047- Apache drill ui
+
+
+## To Pull the Image for dockerhub 
+  
+```
+docker pull ravuri96/apache-drill
+```
