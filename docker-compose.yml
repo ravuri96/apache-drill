@@ -8,8 +8,8 @@ services:
       - "2181:2181"
     restart: always
 
-  hbase:
-    image: "apachedrill:latest"
+  drill:
+    image: "ravuri96/apache-drill"
     container_name: apache-drill
     environment:
       - "CLUSTERID=TESTCLUSTER"

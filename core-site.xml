@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+<property>
+    <name>fs.s3a.aws.credentials.provider</name>
+    <value>com.amazonaws.auth.InstanceProfileCredentialsProvider</value>
+</property>
+<property>
+    <name>fs.s3a.endpoint</name>
+    <value>s3.amazonaws.com</value>
+</property>
+<property>
+    <name>fs.s3a.impl.disable.cache</name>
+    <value>true</value>
+</property>
+<property>
+    <name>fs.s3a.connection.maximum</name>
+    <value>100</value>
+</property>
+</configuration>
